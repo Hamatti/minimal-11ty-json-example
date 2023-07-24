@@ -1,6 +1,6 @@
 # Simple 11ty example
 
-This example is a minimal setup that lets you use JSON files (in `_data/`) as collections of data and Nunjucks templating engine to display that data on a website.
+This example is a minimal setup that lets you use JSON files (in `_data/`) as collections of data and [Nunjucks templating engine](https://mozilla.github.io/nunjucks/) to display that data on a website.
 
 ## Dev
 
