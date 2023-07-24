@@ -1,0 +1,14 @@
+{
+  "name": "11ty-example",
+  "version": "1.0.0",
+  "description": "A minimal example for showing JSON collection data on 11ty website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juha-Matti Santala <juhamattisantala@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

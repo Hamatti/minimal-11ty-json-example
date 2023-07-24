@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+title: "Main page"
+---
+
+<h1>Star Wars Characters</h1>
+
+{# collection `characters` comes from filename in _data/characters.json #}
+{% for character in characters %}
+<article>
+<h2>{{ character.name }}</h2>
+<p>{{ character.height }} cm / {{ character.weight }} kg</p>
+<p>Born: {{ character.birth_year }}</p>
+</article>
+{% endfor %}
